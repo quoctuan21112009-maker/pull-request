@@ -1,0 +1,7 @@
+# Tạo file requirements.txt trong thư mục gốc của repo
+cat > requirements.txt << 'EOF'
+requests==2.31.0
+PyGithub==2.1.1
+python-dotenv==1.0.0
+colorama==0.4.6
+EOF
